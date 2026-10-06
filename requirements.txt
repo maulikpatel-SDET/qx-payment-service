@@ -1,3 +1,3 @@
 cryptography>=42
 PyJWT>=2.8
-qx-shared-crypto-lib @ git+https://github.com/<your-org>/qx-shared-crypto-lib.git@v1.2.0
+qx-shared-crypto-lib @ git+https://github.com/maulikpatel-SDET/qx-shared-crypto-lib.git@v1.2.0
