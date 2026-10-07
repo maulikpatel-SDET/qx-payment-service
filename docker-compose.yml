@@ -1,0 +1,12 @@
+# R3-18 Key settings passed to the container as environment variables.
+services:
+  payment:
+    image: your-registry/qx-payment-service:1.0
+    env_file: .env
+    environment:
+      JWT_ALG: RS256
+      SIGNING_ALG: ES256
+      QX_DOC_KEY_TYPE: RSA
+      QX_KEY_SERVICE_DIR: /opt/qx/qx-key-service
+    volumes:
+      - ../qx-key-service/keys:/opt/qx/qx-key-service/keys:ro
