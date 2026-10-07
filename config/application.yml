@@ -1,0 +1,35 @@
+# R3-15 Spring-style config with an embedded TEST private key.
+server:
+  port: 8080
+jwt:
+  algorithm: RS256
+  issuer: qx-payment-service
+  private-key: |
+    -----BEGIN PRIVATE KEY-----
+    MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC905GE3Rv4pGV6
+    3e2IauGOGcXMtdbEe/c4TryjNznj0fHo6pAcXXnfAYZWehH55eOo0cSOw2FxNY+q
+    sdGbcIpZFro8vxjThfTYu4CXzqP794kNtPfVRf5lHZx1560gzXDfgZlTzE7Fgjyz
+    o9xE6JLXmIULqXxI3WCjvn9OBiVZcRpN/MUvfRdy73+9oUGGayhZ47OkRV6nxjxC
+    8Lxx1v1XrKxDXYFRI6gPbiVtXhRYhJWbgfCz+IcH0jWT2YPWUX1wy4/eWMFN4sFo
+    Bfc6AnWSYzWNbv+/6FlrHObVhU0rx5k0THffBCLurq+480rw32OL8qzIG3GBnsNW
+    elH81MfhAgMBAAECggEAGFRmTYzoYZ8yeYO5xtcKF0Qy36i7wN2xozgmQdYZd5to
+    QcXUmCob7Wr83JcTOEAQhIn0QycEFXY7tnFJj/5l4QLCdng4tp2v8tpfYjWkO25v
+    1L+p1x48O5oGvG7n9/EU4zSxYfXo77QgUxbwq61Sassb3FGKAi3Ljdkj6Gxtu4+E
+    m0cZmZ0XC3a+cVvBTjbOKc7a+KIFGK5OX8Yp6VkMhOptrcX9XfhGmQsXIXuxDLUA
+    AaxlPktVczRaEf4YmtUFWo7LR+Up3NZzv4o+uhvP6j7OSMmpCn2kmJINqwtUdvjy
+    65OGcUcH+/4fEjOGxHbpsNAQZ14Lcp4kdX6Xlm0mdQKBgQDs+c4nF5zfRw2FrSQF
+    A3I4lz80LUV+cSjDgwb5GVyEQXsQpKqvmMbmtTIIOwcM98GbEWW9mU4Z4yO1af72
+    8xYKLdtlMC/654axEaHB6SLw7wdD2wiEkssO6RM9DvQeWrednGW5EE39hJS97JS0
+    q6eH2ac/qHHAstcZ8imXMiX4VQKBgQDNEMaUgG/eTtyT3SzLcUjhuN/EcUcYBLY7
+    jov03txar9aKGNh4Khk3SgPospXbOjTjT4dOadm6GrqyxoQjHnnS1dNc+CjMMMGM
+    yIdDl12OMOFlEpxPFiTyHizLxwohhuwCAg4Dtu678Kt0mpMVsgYH8TzAp+eYZAAr
+    5+YOq/hNXQKBgQCGS3r8xHDuR8HuA5TqEm3kjDIRS6aaZV6IjfShrjGz8bfgUrE4
+    Ggh+LilQaMMyIiXhzxYtQHf2S7as1IjdQh03X4155rkKI7M9HZTh41Ed4Rfo6HQH
+    TXkt1gBFFfhaS2bLNxqeqhLInR3+E9iiGrUyU7JobPkqDy+/UHEpcg36kQKBgQCy
+    EyJO7OW4aEU2BjgTBvIiSdfPkAsLuXPCbjvtTeaOvemRDJhWaUByeczBMuvdb0Nk
+    LbizCEpxSSrdenRexuVFiDe+oSVUg/Zf2fdUY8pzYtEoYyvnpbQ5qKh/4P1UNgUW
+    jVA8O4w/GnTZki2uBmUkWoHGT0hXVmeruPpXvVCnZQKBgHZr7fi92GlzWm7dKxsd
+    6Cuvn1ycWtHoDqjd77WO3k8hqbYnrwEbOe4/l2IgnWY8KkL98x6wBdBIw42nz43X
+    a9Ze9btZw5j4+z6rRdMXYnNx1+dTu0ZSOkzFLeXCwI59eyYAxTwG4C8w1VgEuuSb
+    BX+kP59fj6soWY3Ey2bc7um1
+    -----END PRIVATE KEY-----
